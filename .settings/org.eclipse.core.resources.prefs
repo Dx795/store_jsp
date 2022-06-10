@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/bean/Order.java=UTF-8
+encoding//src/main/java/com/dao/CartDao.java=UTF-8
+encoding//src/main/java/com/dao/UserDAO.java=UTF-8
+encoding//src/main/java/com/daoimpl/OrderDaoImpl.java=UTF-8
+encoding//src/main/java/com/daoimpl/UserDAOImpl.java=UTF-8
+encoding//src/main/java/com/servlet/CartServlet.java=UTF-8
+encoding//src/main/java/com/servlet/GoodsServlet.java=UTF-8
+encoding//src/main/java/com/servlet/OrderServlet.java=UTF-8
+encoding//src/main/java/com/servlet/codeservlet.java=UTF-8
+encoding//src/main/java/com/util/Pagination.java=UTF-8
+encoding//src/main/webapp/css/login_style.css=UTF-8

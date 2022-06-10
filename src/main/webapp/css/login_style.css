@@ -1,0 +1,158 @@
+* {
+    font-family: "Microsoft YaHei",sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg-zh-wu-1.jpg");
+    background-size: cover;
+    /* background-position: center left; */
+    background-repeat: no-repeat;
+}
+
+/*绗�1灞�*/
+.table {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+    margin: 5px;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.1));
+}
+.div-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.panel-login {
+    width: 758px;
+    height: 420px;
+    background-color: rgba(235,235,235,0.3);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 12px 12px 16px 8px rgba(0,0,0,0.3);
+
+}
+.panel-login-left {
+    width: 40%;
+    height: 100%;
+    float: left;
+    border-radius: 19px 0 0 19px;
+    /*姘村钩灞呬腑*/
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(235,235,235,0.3);
+}
+.panel-login-left .login-img {
+    object-fit: cover;
+    width: 50%;
+    border-radius: 12px;
+    border-image-outset: 6px;
+}
+.panel-login-left a {
+    color: #1e0604;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 6px 6px 6px rgba(78,42,64,0.4);
+}
+.panel-login-left a:hover {
+    color: #7b130a;
+}
+.panel-login-right {
+    width: 60%;
+    height: 420px;
+    float: right;
+    /*灞呬腑*/
+    /*line-height: 420px;*/
+    text-align: center;
+}
+.panel-login-right {
+    background-image: url("../img/zh-jiao-yuan-2.png");
+    background-position: top,left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-type-login {
+    width: 80%;
+    height: 420px;
+
+}
+.input-type-login p {
+    font-size: 38px;
+    font-weight: none;
+    color: #2e2f1f;
+    text-shadow: 6px 6px 6px rgba(78,42,64,0.4);
+}
+/*input鎺т欢鏍峰紡*/
+.input-type-login .input {
+    width: 100%;
+    margin-bottom: 12px;
+    margin-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 28px;
+    outline: none;
+}
+/*鏂囨湰妗嗘牱寮�*/
+.text-style {
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    border-radius: 28px;
+    border: 1px solid #7b49c6;
+    padding-left: 32px;
+}
+.text-style:hover {
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    border-radius: 28px;
+    border: 2px solid #920000;
+    padding-left: 32px;
+}
+/*鎸夐挳鏍峰紡*/
+.button-style {
+    color: #dae5e7;
+	border:none;
+    background-image: linear-gradient(90deg,#e4c6d0,#c84064);
+    transition-duration: 0.5s;
+	box-shadow: 6px 6px 16px rgba(234,81,127,0.7);
+}
+.button-style:hover{
+    background-image: linear-gradient(90deg,#e6e6fa,#ad2e28);
+    color: #e3f9fd;
+}
+.input-type-login .a-register {
+width: 100%;
+color: #5a0403;
+text-decoration:none;
+}
+.input-type-login .a-register:hover {
+width: 100%;
+color: #c3060a;
+text-decoration:none;
+}
+
+/* #8b2671 闈掕幉*/
+
+.panel-other {
+    float: right;
+    width: 100px;
+    height: 100vh;
+    /* background-color: #c84064; */
+
+}
+.panel-other-top {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 200px;
+    background-image: url("../images/zh-guajian.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.panel-other-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/zh-lianhua.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
